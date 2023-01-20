@@ -22,5 +22,5 @@ There are four major challenges to vision based human action recognition. These 
 <img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/occlusion.jpg" alt="Material Bread logo">
  
 ## Flowchart of proposed solution
-<img  width="500" src="[https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/shadow.jpg](https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/dg.jpg)" alt="Material Bread logo">
+<img  width="500" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/dg.jpg alt="Material Bread logo">
 
