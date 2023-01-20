@@ -19,6 +19,6 @@ There are four major challenges to vision based human action recognition. These 
 3. CLUTTERED BACKGROUND : In RGB videos, mediapipe cannot separate a person's backdrop from their features if the two are similar, making it impossible to extract features. However, since depth movies already have depth information, this similarity is eliminated.
 <img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/clutteredbg.jpg" alt="Material Bread logo">
 4.OCCLUSION : Occlusion, or when one item is blocked by another, prevents mediapipe from creating correct skeletons since it is unable to distinguish between the various entities. However, in-depth video can distinguish between two objects with ease because they will both have different depths.
-<img  align="center" width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/occlusion.jpg" alt="Material Bread logo">
+<img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/occlusion.jpg" alt="Material Bread logo">
  
 
