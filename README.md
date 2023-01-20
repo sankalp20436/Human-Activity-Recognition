@@ -42,10 +42,10 @@ In our approach, we have first created a dataset of 200 videos, 100 each of RGB 
 ## Results - 
 1. for sitting 
 <p align="center">
-<img  width="900" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/sit.gif alt="Material Bread logo">
+<img  width="600" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/sit.gif alt="Material Bread logo">
 </p>
 2. for saluting
 <p align="center">
-<img  width="900" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/sal.gif alt="Material Bread logo">
+<img  width="600" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/sal.gif alt="Material Bread logo">
 </p>
 
