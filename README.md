@@ -26,15 +26,26 @@ There are four major challenges to vision based human action recognition. These 
       <p align="center">
 <img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/occlusion.jpg" alt="Material Bread logo">
  </p>
+ 
+ ## Created Data set description
+Our created dataset has 50 videos belonging to each class recorded using Intel realsense D435 depth camera . Each video is of 5-10 sec and is generated at a frame rate of 25 frames per second for RGB Videos and  20 frames per second for RGB-D videos.
+<p align="center">
+<img  width="400" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/dataset.jpg alt="Material Bread logo">
+</p>
+ 
 ## Flowchart of proposed solution
 In our approach, we have first created a dataset of 200 videos, 100 each of RGB and RGBD, comprising two classes, saluting and sitting, each consisting of 50 videos. To record the RGB and RGBD videos, we have used the Intel RealSense D435 camera and the RGB and stereo module present in its SDK( Software Development Kit). The software gives an output in the form of a .bag file that contains both the RGB and RGBD frames. We have extracted the respective frames using a python script and generated the videos combining the frames. In the next step, we extracted the features from the videos and stored them in a .npy (a NumPy array) file. Using these features, we have trained our model and generated a .h5 file that contains the weights and architecture of the model. The trained classifier is then used to recognize human activity via a GUI ( Graphic User Interface).
 <p align="center">
 <img  width="900" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/dg.jpg alt="Material Bread logo">
 </p>
 
-## Created Data set description
-Our created dataset has 50 videos belonging to each class recorded using Intel realsense D435 depth camera . Each video is of 5-10 sec and is generated at a frame rate of 25 frames per second for RGB Videos and  20 frames per second for RGB-D videos.
+## Results - 
+1. for sitting 
 <p align="center">
-<img  width="400" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/dataset.jpg alt="Material Bread logo">
+<img  width="900" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/sit.gif alt="Material Bread logo">
+</p>
+2. for saluting
+<p align="center">
+<img  width="900" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/sal.gif alt="Material Bread logo">
 </p>
 
