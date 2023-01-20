@@ -11,9 +11,9 @@ Using an RGB sensor, computer vision has significantly improved in assessing hum
 There are four major challenges to vision based human action recognition. These are occlusions, cluttered backgrounds, shadows, and varying illumination conditions that can produce difficulties for motion segmentation and alter the way actions are perceived. 
 
 1. SHADOWS : Even for RGB images featuring a human shadow, the mediapipe may create a 3D skeleton. The system's accuracy suffers as a result. Since the depth camera does not capture object shadows, it may be used to remedy this issue.
-2. <p align="center">
+
 <img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/shadow.jpg" alt="Material Bread logo">
-  </p>
+
 2. ILLUMINATION : Mediapipe is not able to extract the skeleton from the video if there is high intensity illumination present in the background and as depth camera uses IR sensors to create video not much distortion is seen.
 <img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/illumination.jpg" alt="Material Bread logo">
 3. CLUTTERED BACKGROUND : In RGB videos, mediapipe cannot separate a person's backdrop from their features if the two are similar, making it impossible to extract features. However, since depth movies already have depth information, this similarity is eliminated.
