@@ -2,7 +2,7 @@
 <p align="center">
   
 </p>
-## About
+
 Human activity recognition uses external video sensors to classify distinct human activities. Since it allows automatic monitoring and analysis of patient or resident activities in smart environments like smart hospitals and smart homes, researchers have drawn considerable interest in health care, social care, and life care services.
 Using an RGB sensor, computer vision has significantly improved in assessing human position and activity. However, depth sensors have become more important in human pose estimation over the following ten years. Additionally, numerous RGB-based efforts have been achieved after the initial techniques focused on estimating skeletal joints. Despite all the progress in RGB-based pose estimation, the availability of depth can still be of great use for the pose estimation task.  
 
@@ -22,5 +22,7 @@ There are four major challenges to vision based human action recognition. These 
 <img  width="400" src="https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/occlusion.jpg" alt="Material Bread logo">
  
 ## Flowchart of proposed solution
+In our approach, we have first created a dataset of 200 videos, 100 each of RGB and RGBD, comprising two classes, saluting and sitting, each consisting of 50 videos. To record the RGB and RGBD videos, we have used the Intel RealSense D435 camera and the RGB and stereo module present in its SDK( Software Development Kit). The software gives an output in the form of a .bag file that contains both the RGB and RGBD frames. We have extracted the respective frames using a python script and generated the videos combining the frames. In the next step, we extracted the features from the videos and stored them in a .npy (a NumPy array) file. Using these features, we have trained our model and generated a .h5 file that contains the weights and architecture of the model. The trained classifier is then used to recognize human activity via a GUI ( Graphic User Interface).
+
 <img  width="900" src=https://github.com/sankalp20436/Human-Activity-Recognition/blob/main/images/dg.jpg alt="Material Bread logo">
 
